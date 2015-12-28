@@ -1,0 +1,137 @@
+/*
+Copyright (C) 2006  Mark Garner
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+body
+{
+	font-size: small;
+	font-family: Verdana;
+}
+
+h2
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+hr
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	margin-top: 0px;
+	font-size: x-small;
+	margin-bottom: 6px;
+}
+
+.EditLink
+{
+	font-size: xx-small;
+}
+
+.WikiArticle
+{
+	border-right: black thin solid;
+	border-left: black thin solid;
+	border-bottom: black thin solid;
+}
+
+.SelectedButton
+{
+	border-right: black thin solid;
+	border-left: black thin solid;
+	border-top: black thin solid;
+}
+
+.UnSelectedButton
+{
+	border-right: black thin solid;
+	border-top: black thin solid;
+	border-left: black thin solid;
+	border-bottom: black thin solid;
+	background-color: lightgrey;
+}
+
+.ButtonSpace
+{
+	border-bottom: black thin solid;
+}
+
+.MainTable
+{
+	border-collapse: collapse;
+}
+
+.QueryResultsTable
+{
+	border-right: black solid;
+	border-top: black solid;
+	border-left: black solid;
+	border-bottom: black solid;
+	border-collapse: collapse;
+}
+
+.QueryResultsHeader
+{
+	border-right: thin solid;
+	padding-right: 3px;
+	border-top: thin solid;
+	padding-left: 3px;
+	font-weight: bold;
+	font-size: x-small;
+	padding-bottom: 3px;
+	border-left: thin solid;
+	padding-top: 3px;
+	border-bottom: solid;
+}
+
+.QueryResultsItem
+{
+	border-right: black thin solid;
+	padding-right: 3px;
+	border-top: black thin solid;
+	padding-left: 3px;
+	font-size: x-small;
+	padding-bottom: 3px;
+	border-left: black thin solid;
+	padding-top: 3px;
+	border-bottom: black thin solid;
+}
+
+.Collapsed
+{
+	display: none;
+}
+
+.Showing
+{
+	display: block;
+}
+
+.Clickable
+{
+	cursor: hand;
+}

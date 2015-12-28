@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZWiki.Web", "http://localhost/EZWiki.Web/EZWiki.Web.csproj", "{0437878B-718B-498F-8291-A564E99E7B59}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZWiki.Data", "EZWiki.Data\EZWiki.Data.csproj", "{2CB9348E-ADD2-43D8-A1E7-695A9F3CC7ED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZWiki.Search", "EZWiki.Search\EZWiki.Search.csproj", "{2C9D3C30-1BAB-424A-A96C-DAB02C8B8124}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "EZWiki.Database", "EZWiki.Database\EZWiki.Database.dbp", "{23631077-CF47-481A-A94C-41B5A029A08D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0437878B-718B-498F-8291-A564E99E7B59}.Debug.ActiveCfg = Debug|.NET
+		{0437878B-718B-498F-8291-A564E99E7B59}.Debug.Build.0 = Debug|.NET
+		{0437878B-718B-498F-8291-A564E99E7B59}.Release.ActiveCfg = Release|.NET
+		{0437878B-718B-498F-8291-A564E99E7B59}.Release.Build.0 = Release|.NET
+		{2CB9348E-ADD2-43D8-A1E7-695A9F3CC7ED}.Debug.ActiveCfg = Debug|.NET
+		{2CB9348E-ADD2-43D8-A1E7-695A9F3CC7ED}.Debug.Build.0 = Debug|.NET
+		{2CB9348E-ADD2-43D8-A1E7-695A9F3CC7ED}.Release.ActiveCfg = Release|.NET
+		{2CB9348E-ADD2-43D8-A1E7-695A9F3CC7ED}.Release.Build.0 = Release|.NET
+		{2C9D3C30-1BAB-424A-A96C-DAB02C8B8124}.Debug.ActiveCfg = Debug|.NET
+		{2C9D3C30-1BAB-424A-A96C-DAB02C8B8124}.Debug.Build.0 = Debug|.NET
+		{2C9D3C30-1BAB-424A-A96C-DAB02C8B8124}.Release.ActiveCfg = Release|.NET
+		{2C9D3C30-1BAB-424A-A96C-DAB02C8B8124}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
